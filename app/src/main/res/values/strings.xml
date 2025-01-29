@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project_DB</string>
+    <string name="create_comment">Creació d\'un nou comentari</string>
+    <string name="enter_comment_name">Posar nom al nou comentari</string>
+    <string name="comment_text">Text del nou Comentari</string>
+    <string name="create">CREAR</string>
+    <string name="select_comment">Seleccioni un comentari</string>
+    <string name="view">VEURE</string>
+    <string name="view_comment">Veure comentari</string>
+    <string name="delete">ELIMINAR</string>
+</resources>
