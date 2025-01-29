@@ -8,4 +8,5 @@
     <string name="view">VEURE</string>
     <string name="view_comment">Veure comentari</string>
     <string name="delete">ELIMINAR</string>
+    <string name="enter_comment">Donam el comentari</string>
 </resources>

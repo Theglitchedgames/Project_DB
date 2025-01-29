@@ -16,6 +16,7 @@
         android:layout_marginBottom="8dp"/>
 
     <EditText
+        android:id="@+id/editTextTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/enter_comment_name"
@@ -29,7 +30,16 @@
         android:textSize="16sp"
         android:layout_marginBottom="8dp"/>
 
+    <EditText
+        android:id="@+id/editTextComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_comment"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
     <Button
+        android:id="@+id/buttonCrear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/create"
@@ -45,11 +55,13 @@
         android:layout_marginBottom="4dp"/>
 
     <Spinner
+        android:id="@+id/spinnerComentarios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"/>
 
     <Button
+        android:id="@+id/buttonVer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/view"
@@ -58,6 +70,7 @@
         android:layout_marginBottom="16dp"/>
 
     <TextView
+        android:id="@+id/textViewVerComentario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/view_comment"
@@ -65,6 +78,7 @@
         android:layout_marginBottom="16dp"/>
 
     <Button
+        android:id="@+id/buttonEliminar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/delete"
